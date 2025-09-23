@@ -1,35 +1,20 @@
-# 📌 Plugin: Notificador para HFS
+# 📌 Plugin: Style Dark Mode Theme [Feeder Owl]
 
-Este plugin adiciona ao HFS a capacidade de enviar notificações sobre atividades importantes no servidor.
+Este plugin aplica ao HFS o tema visual do site Feederowl.com, deixando a interface mais moderna e agradável.
 
  
 
 ⚙️ Funcionalidades:
 
-🔔 Notificar uploads
-Receba alertas sempre que um arquivo for enviado ao servidor.
+🎨 Tema completo
+Altera cores, fontes e layout do HFS inspirado no Feederowl.
 
-👤 Notificar login
-Mostra notificações sempre que um usuário efetuar login no HFS.
-
-🌐 Notificar conexão por IP
-Configure para ser avisado quando ocorrer uma nova conexão:
-
-* Nunca notificar
-
-* A cada 30 minutos
-
-* A cada 1 hora
+🖥️ Visual integrado
+O CSS é carregado automaticamente no frontend, mantendo a interface do HFS consistente com o tema.
 
  
 
-🖥️ Interface:
-
-Painel simples e integrado às Opções do HFS, permitindo habilitar/desabilitar recursos facilmente.
-
-Exibe um log em tempo real com as notificações (ex.: uploads, conexões, logins).
-
-👉 Assim, o administrador do HFS consegue acompanhar melhor a atividade do servidor sem precisar ficar verificando os logs manualmente.
+👉 Assim, o administrador do HFS pode melhorar a aparência do servidor sem precisar alterar manualmente os arquivos do sistema.
 
 <img width="1919" height="1065" alt="image" src="https://github.com/user-attachments/assets/da76e5f9-2e4d-4ce7-a5b3-a06c74c7ca9f" />
 
@@ -37,6 +22,6 @@ Exibe um log em tempo real com as notificações (ex.: uploads, conexões, login
 
 ## Instalação
 1. No HFS, vá em **Menu → Plugins → Install from Repo**
-2. Digite:Notficador
+2. Digite:Style FeederOWL
 3. Ative o plugin no painel do HFS.
 
