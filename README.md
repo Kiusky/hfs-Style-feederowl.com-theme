@@ -24,4 +24,3 @@ O CSS é carregado automaticamente no frontend, mantendo a interface do HFS cons
 1. No HFS, vá em **Menu → Plugins → Install from Repo**
 2. Digite:Style FeederOWL
 3. Ative o plugin no painel do HFS.
-
