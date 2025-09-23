@@ -24,7 +24,6 @@ button {
     z-index: 9999;
     padding: 0 10px;
 }
-
 .toast {
     margin: 5px 5;
     padding: 10px 20px;
@@ -46,37 +45,31 @@ button {
     justify-content: flex-start;
     align-items: center;
   }
-
   #menu-bar > * {
     max-width: 100%;
     flex-shrink: 1;
   }
-
   #menu-bar .label {
     font-size: 1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-
   @media (max-width: 768px) {
     #menu-bar .label {
       font-size: 0.9rem;
     }
   }
-
   @media (max-width: 600px) {
     #menu-bar .label {
       font-size: 0.8rem;
     }
   }
-
   @media (max-width: 480px) {
     #menu-bar .label {
       font-size: 0.7rem;
     }
   }
-
   @media (max-width: 360px) {
     #menu-bar .label {
       font-size: 0.65rem;
@@ -102,10 +95,6 @@ label[for="input"] {
 }
 #menu-entry-comment label div {
     display: none;
-}
-
-#menu-entry-comment label::after {
-    content: "Aviso";
 }
 #zip-button {
   display: none !important;
@@ -223,12 +212,10 @@ button[type="submit"] {
     word-break: break-word;
     transition: all 0.25s ease;
 }
-
 .breadcrumb:hover {
     background-color: var(--button-bg-hover);
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.4);
 }
-
 :root {
     height: 100dvh;
     --bg: #fff;
@@ -242,7 +229,6 @@ button[type="submit"] {
     --button-text: #fff;
     --focus-color: #468;
 }
-
 :root .theme-dark {
     --bg: #2F3135;
     --text: #c8c8c8;
@@ -252,15 +238,12 @@ button[type="submit"] {
     --button-text: #c8c8c8;
     color-scheme: dark;
 }
-
 :root .theme-dark a {
     color: var(--button-text);
 }
-
 body {
     background-size: contain;
 }
-
 header {
     background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
     background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
@@ -277,7 +260,6 @@ header {
     z-index: 1;
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
 }
-
 #root {
     max-width: 100%;
     margin: auto;
@@ -285,22 +267,18 @@ header {
     /*display: flex;
     flex-direction: column;*/
 }
-
 .list-wrapper {
     max-width: 100%;
 }
-
 #root>div {
     max-width: 100%;
 }
-
 ul.dir {
     margin: auto;
     min-width: 95%;
     max-width: 95%;
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
 }
-
 ul.dir li {
     display: block;
     min-height: 2em;
@@ -310,7 +288,6 @@ ul.dir li {
     border: 1px solid var(--faint-contrast);
     border-radius: 8px;
 }
-
 button {
     background-color: var(--button-bg);
     color: var(--button-text);
@@ -325,20 +302,17 @@ button {
     font-weight: bold;
     transition: all 0.25s ease;
 }
-
 button:hover {
     background-color: var(--button-text);
     color: var(--button-bg-hover);
     text-shadow: 1px 1px 4px rgba(255, 255, 255, 70%);
 }
-
 a {
     text-decoration: none;
     color: var(--button-text);
     font-size: 18px;
     vertical-align: middle;
 }
-
 @media (min-width: 1200px) {
     #player {
         position: fixed;
@@ -354,7 +328,6 @@ a {
         z-index: 1;
         }
 }
-
 #player-title {
     color: var(--button-text);
     padding: .5em 1em;
