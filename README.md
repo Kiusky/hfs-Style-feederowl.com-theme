@@ -16,9 +16,10 @@ O CSS é carregado automaticamente no frontend, mantendo a interface do HFS cons
 
 👉 Assim, o administrador do HFS pode melhorar a aparência do servidor sem precisar alterar manualmente os arquivos do sistema.
 
-<img width="1919" height="1065" alt="image" src="https://github.com/user-attachments/assets/da76e5f9-2e4d-4ce7-a5b3-a06c74c7ca9f" />
+<img width="1919" height="1065" alt="4549845165465" src="https://github.com/user-attachments/assets/5e6ea1e8-8dc5-4040-9fbb-38fbffbe7ae5" />
 
-<img width="1919" height="1067" alt="image" src="https://github.com/user-attachments/assets/be57e3d5-9830-451a-acd6-a94f18800c9a" />
+<img width="1919" height="1067" alt="4646465465" src="https://github.com/user-attachments/assets/50e1358e-176e-447d-9b37-8c32a25ecd63" />
+
 
 ## Instalação
 1. No HFS, vá em **Menu → Plugins → Install from Repo**
