@@ -93,9 +93,6 @@ label[for="input"] {
   visibility: hidden;
   display: block;
 }
-#zip-button {
-  display: none !important;
-}
 .field.comment {
     display: none;
 }
@@ -104,7 +101,12 @@ label[for="input"] {
 }
 button {
     display: block;
-    margin: 15px auto 0;
+}
+button[aria-label="Zip"][disabled],
+button[aria-label="Apagar"][disabled] {
+    background-color: #2F3135 !important;
+    color: #666 !important;
+    cursor: not-allowed !important;
 }
 label[for="name"] {
     display: none;
@@ -137,9 +139,6 @@ input[name="name"] {
 }
 .popup-menu-button {
     display: none !important;
-}
-#select-button {
-    display: none;
 }
 .dialog-content {
     width: 90%;
