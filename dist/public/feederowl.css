@@ -93,9 +93,6 @@ label[for="input"] {
   visibility: hidden;
   display: block;
 }
-#menu-entry-comment label div {
-    display: none;
-}
 #zip-button {
   display: none !important;
 }
@@ -134,10 +131,6 @@ input[name="name"] {
 .dir {
   position: relative;
   z-index: 0;
-}
-#menu-entry-show label div {
-    visibility: hidden;
-    position: relative;
 }
 .popup-menu-button {
   transform: translateX(70%);
