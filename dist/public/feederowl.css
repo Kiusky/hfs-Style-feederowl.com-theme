@@ -1,3 +1,11 @@
+#change-password {
+  margin-bottom: 1em;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
 #option-folders-first {
   display: none !important;
 }
@@ -93,12 +101,6 @@ label[for="input"] {
   visibility: hidden;
   display: block;
 }
-.field.comment {
-    display: none;
-}
-.field.wildcards {
-    display: none;
-}
 button {
     display: block;
 }
@@ -116,13 +118,6 @@ input[name="name"] {
     min-width: 200px;
     max-width: 500px;
     box-sizing: border-box;
-}
-#search-dialog {
-    width: 500px;
-    height: 200px;
-}
-.dialog-title {
-  display: none;
 }
 .dialog-closer {
     display: none;
@@ -176,9 +171,6 @@ a:not(#menu-bar a, .breadcrumb, #breadcrumb-parent, #breadcrumb-home) {
 #menu-bar a:hover,
 .breadcrumb:hover {
   text-decoration: none !important;
-}
-button[type="submit"] {
-  cursor: default !important;
 }
 .dialog-backdrop::before {
     content: '';
