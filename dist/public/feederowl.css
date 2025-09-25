@@ -1,3 +1,21 @@
+img {
+  display: block;
+  margin: 0.5em auto;
+}
+@media (max-width: 600px) {
+  .dialog-content div[style*="display: flex"] {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5em;
+  }
+}
+div[style*="display: flex"][style*="gap: 1em"] {
+    justify-content: center !important;
+    align-items: center !important;
+}
+div[style*="gap: 1em"] {
+    gap: 0 !important;
+}
 .dialog {
   position: relative;
 }
@@ -30,7 +48,7 @@ button {
     position: fixed !important;
     top: 50% !important;
     left: 49% !important;
-    transform: translate(-44%, -50%) !important;
+    transform: translate(-47%, -50%) !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,12 +120,8 @@ button {
     --faint-contrast: NOME !important;
     --ghost-contrast-alt: NOME !important;
 }
-label[for="input"] {
-  visibility: hidden;
-  display: block;
-}
 button {
-    display: block;
+    display: center;
 }
 #delete-button[disabled] {
   background-color: #2F3135 !important;
@@ -123,12 +137,7 @@ button:has(.fa-trash)[disabled] {
 label[for="name"] {
     display: none;
 }
-input[name="name"] {
-    width: 100%;
-    min-width: 200px;
-    max-width: 500px;
-    box-sizing: border-box;
-}
+
 .dialog-closer {
     display: none;
 }
@@ -146,8 +155,8 @@ input[name="name"] {
     display: none !important;
 }
 .dialog-content {
-    width: 90%;
-    max-width: 90%;
+	width: 100%;
+    max-width: 100%;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
