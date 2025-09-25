@@ -16,11 +16,15 @@ CSS is automatically loaded on the frontend, keeping the HFS interface consisten
 
 👉 This allows the HFS administrator to improve the appearance of the server without having to manually change system files.
 
-<img width="1919" height="1065" alt="4549845165465" src="https://github.com/user-attachments/assets/5e6ea1e8-8dc5-4040-9fbb-38fbffbe7ae5" />
+ 
+<img width="1920" height="933" alt="1" src="https://github.com/user-attachments/assets/6867960a-61f0-424b-bb20-3b7ef3831eae" />
+<img width="1920" height="929" alt="2" src="https://github.com/user-attachments/assets/f02e829c-fd53-49a1-8279-67535f814b73" />
+<img width="1920" height="931" alt="3" src="https://github.com/user-attachments/assets/e95c286c-0be5-4dc4-98af-a327327c85f2" />
+<img width="1920" height="1032" alt="4" src="https://github.com/user-attachments/assets/3eb91d74-e278-4252-b832-e906bef95ef2" />
+<img width="4405" height="2482" alt="5" src="https://github.com/user-attachments/assets/c0c9b11c-9170-49c1-b985-040d02f6941b" />
 
-<img width="1919" height="1067" alt="4646465465" src="https://github.com/user-attachments/assets/50e1358e-176e-447d-9b37-8c32a25ecd63" />
 
-
+ 
 ## Installation
 1. In HFS, go to **Menu → Plugins → Install from Repo**
 2. Type:Style FeederOWL
