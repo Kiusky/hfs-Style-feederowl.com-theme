@@ -1,3 +1,6 @@
+.dialog {
+  position: relative;
+}
 .dialog-title {
   margin-left: 2em;
 }
