@@ -1,4 +1,4 @@
-exports.version = 0.5
+exports.version = 1.1
 exports.description = "Style Dark Mode Theme [Feeder Owl]"
 exports.apiRequired = 1
 exports.repo = "Kiusky/hfs-Style-feederowl.com-theme"
