@@ -1,3 +1,9 @@
+.controls[style*="display: flex"] {
+    display: block !important;
+    gap: 0 !important;
+    justify-content: initial !important;
+    align-items: initial !important;
+}
 img {
   display: block;
   margin: 0.5em auto;
