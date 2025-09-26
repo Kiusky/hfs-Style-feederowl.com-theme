@@ -25,7 +25,7 @@ CSS is automatically loaded on the frontend, keeping the HFS interface consisten
  
 <img width="4405" height="2482" alt="5" src="https://github.com/user-attachments/assets/c0c9b11c-9170-49c1-b985-040d02f6941b" />
  
-<img width="4455" height="2482" alt="45645646465546132" src="https://github.com/user-attachments/assets/3e2e3d96-5af3-4cfe-8c2b-fd1c73a7c3ce" />
+<img width="4455" height="2482" alt="6" src="https://github.com/user-attachments/assets/3e2e3d96-5af3-4cfe-8c2b-fd1c73a7c3ce" />
 
 
  
