@@ -11,7 +11,7 @@ window.addEventListener("orientationchange", () => {
   if (isLandscape) {
     const video = document.querySelector("video");
     if (video && video.requestFullscreen) {
-      video.requestFullscreen().catch((e) => console.warn("Erro ao tentar tela cheia:", e));
+      video.requestFullscreen().catch((e) => console.warn("Error when trying to full screen:", e));
     }
   }
 });
