@@ -9,8 +9,7 @@ This plugin applies the visual theme of the Feederowl.com website to HFS, making
 🎨 Complete theme
 Changes colors, fonts and layout of HFS inspired by Feederowl.
 
-🖥️ Integrated visual
-CSS is automatically loaded on the frontend, keeping the HFS interface consistent with the theme.
+🖥️ Integrated visual CSS and JavaScript are automatically loaded on the front-end, keeping the HFS interface consistent with the theme and optimized functions.
 
  
 
