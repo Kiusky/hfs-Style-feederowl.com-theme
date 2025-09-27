@@ -11,6 +11,8 @@ Changes colors, fonts and layout of HFS inspired by Feederowl.
 
 🖥️ Integrated visual CSS and JavaScript are automatically loaded on the front-end, keeping the HFS interface consistent with the theme and optimized functions.
 
+📱 Optimized for mobile
+
  
 
 👉 This allows the HFS administrator to improve the appearance of the server without having to manually change system files.
