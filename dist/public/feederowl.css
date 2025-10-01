@@ -8,6 +8,7 @@
     --faint-contrast: rgba(0, 0, 0, 0);
 	--faint-contrast: NOME !important;
 	--ghost-contrast-alt: NOME !important;
+	--mild-contrast: NOME !important;
     color-scheme: light;
 }
 
@@ -21,6 +22,7 @@
     --faint-contrast: rgba(0, 0, 0, 0);
 	--faint-contrast: NOME !important;
 	--ghost-contrast-alt: NOME !important;
+	--mild-contrast: NOME !important;
     color-scheme: dark;
 }
 
@@ -50,17 +52,11 @@ button {
     cursor: pointer;
     border: 1px solid var(--faint-contrast);
     text-shadow: 1px 1px 4px rgb(0 0 0 / 70%);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     transition: all 0.25s ease;
     white-space: nowrap;
     display: center;
-}
-
-button:hover {
-    background-color: var(--button-text);
-    color: var(--button-bg-hover);
-    text-shadow: 1px 1px 4px rgba(255, 255, 255, 70%);
 }
 
 button[disabled] {
@@ -251,16 +247,28 @@ ul.dir li {
     overflow: hidden;
 }
 
+.dialog-icon,
+:root .theme-dark .dialog-closer {
+    cursor: default;
+}
+
 .dialog-icon {
+	color: unset !important;
     background-color: #32363a00;
+	top: 2px;
+}
+
+:root .theme-dark .dialog-closer {
+    background: #32363a00;
 }
 
 .dialog-title {
     margin-left: 2em;
 }
 
-.dialog-closer {
-    display: none;
+.dialog-type {
+    left: 3px;
+    top: 2px;
 }
 
 .controls[style*="display: flex"] {
