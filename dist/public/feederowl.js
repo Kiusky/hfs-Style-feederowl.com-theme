@@ -1,17 +1,17 @@
 (function() {
     const style = document.createElement('style');
     style.textContent = `
-        #hfs-loader {
+        #hfs-loader, #loader, .spinner, .dado-colorido {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: #484e55;
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 99999;
+            background-color: transparent !important;
         }
         
         .hfs-loader-spinner {
@@ -48,23 +48,53 @@
     `;
     document.head.appendChild(style);
 
-    const loader = document.createElement('div');
-    loader.id = 'hfs-loader';
-    loader.innerHTML = '<div class="hfs-loader-spinner"></div>';
-    document.body.appendChild(loader);
+    const createLoader = () => {
+        const loader = document.createElement('div');
+        loader.id = 'hfs-loader';
+        loader.innerHTML = '<div class="hfs-loader-spinner"></div>';
+        document.body.appendChild(loader);
+        
+        const otherLoaders = document.querySelectorAll('#loader, .spinner, .dado-colorido');
+        otherLoaders.forEach(el => {
+            el.style.display = 'flex';
+            el.style.justifyContent = 'center';
+            el.style.alignItems = 'center';
+            el.style.position = 'fixed';
+            el.style.top = '0';
+            el.style.left = '0';
+            el.style.width = '100%';
+            el.style.height = '100%';
+            el.style.zIndex = '99999';
+            el.style.backgroundColor = 'transparent';
+        });
+    };
+    
+    createLoader();
     
     localStorage.setItem('hfs_hide_root_loading', 'true');
 })();
 
 function showContent() {
-    const loader = document.getElementById('hfs-loader');
-    if (loader) {
+    const allLoaders = document.querySelectorAll('#hfs-loader, #loader, .spinner, .dado-colorido');
+    allLoaders.forEach(loader => {
         loader.style.display = 'none';
-    }
+    });
     
     const root = document.getElementById('root');
     if (root) {
         root.classList.add('hfs-allowed');
+    }
+}
+
+function showAllLoaders() {
+    const allLoaders = document.querySelectorAll('#hfs-loader, #loader, .spinner, .dado-colorido');
+    allLoaders.forEach(loader => {
+        loader.style.display = 'flex';
+    });
+    
+    const root = document.getElementById('root');
+    if (root) {
+        root.classList.remove('hfs-allowed');
     }
 }
 
@@ -156,15 +186,7 @@ function setupPullToRefresh() {
         if (diff > 300 && window.scrollY <= 10) {
             console.log('Pull-to-refresh acionado - puxou', diff, 'pixels');
             
-            const loader = document.getElementById('hfs-loader');
-            if (loader) {
-                loader.style.display = 'flex';
-            }
-            
-            const root = document.getElementById('root');
-            if (root) {
-                root.classList.remove('hfs-allowed');
-            }
+            showAllLoaders();
             
             setTimeout(() => {
                 reloadLikeHFS();
