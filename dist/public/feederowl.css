@@ -1,15 +1,14 @@
 :root {
-    height: 100dvh;
-    --bg: #2F3135 !important;
-    --text: #555;
-    --ghost-contrast: #8882;
-    --faint-contrast: #0f1113;
-    --faint-contrast-trans: #0f11137d;
-    --mild-contrast: #8886;
-    --good-contrast: #000a;
-    --button-bg: #68a;
-    --button-text: #fff;
-    --focus-color: #468;
+    --bg: #2F3135;
+    --text: #c8c8c8;
+    --good-contrast: #fffa;
+    --button-bg: #32363a;
+    --button-bg-hover: #636B73;
+    --button-text: #c8c8c8;
+    --faint-contrast: rgba(0, 0, 0, 0);
+	--faint-contrast: NOME !important;
+	--ghost-contrast-alt: NOME !important;
+    color-scheme: light;
 }
 
 :root .theme-dark {
@@ -252,6 +251,10 @@ ul.dir li {
     overflow: hidden;
 }
 
+.dialog-icon {
+    background-color: #32363a00;
+}
+
 .dialog-title {
     margin-left: 2em;
 }
@@ -310,7 +313,6 @@ ul.dir li {
 
 #menu-entry-open,
 .popup-menu-button,
-#option-folders-first,
 #option-tile-size > div,
 .entry-panel {
     display: none !important;
