@@ -153,8 +153,8 @@ function setupPullToRefresh() {
         const currentY = e.changedTouches[0].pageY;
         const diff = currentY - startY;
         
-        if (diff > 80 && window.scrollY <= 10) {
-            console.log('Pull-to-refresh acionado - usando /# do HFS');
+        if (diff > 300 && window.scrollY <= 10) {
+            console.log('Pull-to-refresh acionado - puxou', diff, 'pixels');
             
             const loader = document.getElementById('hfs-loader');
             if (loader) {
@@ -195,13 +195,6 @@ function setupPullToRefresh() {
         setupPullToRefresh();
     }
 })();
-
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Backspace' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
-        event.preventDefault();
-        history.back();
-    }
-});
 
 window.addEventListener("orientationchange", () => {
   const isLandscape = screen.orientation?.angle === 90 || screen.orientation?.angle === -90;
