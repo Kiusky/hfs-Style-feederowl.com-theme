@@ -227,6 +227,8 @@ ul.dir li {
 .dialog {
     position: relative;
     margin: 0 !important;
+	flex-wrap: wrap;
+	align-content: center;
 }
 
 .dialog-backdrop::before {
@@ -293,7 +295,6 @@ ul.dir li {
     }
 }
 
-
 .toast {
     margin: 5px 5;
     padding: 10px 20px;
@@ -307,7 +308,6 @@ ul.dir li {
     box-sizing: border-box;
 }
 
-#loader, .spinner, .dado-colorido,
 #menu-entry-open,
 .popup-menu-button,
 #option-folders-first,
