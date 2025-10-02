@@ -9,6 +9,7 @@
 	--faint-contrast: NOME !important;
 	--ghost-contrast-alt: NOME !important;
 	--mild-contrast: NOME !important;
+	--focus-color: NOME !important;
     color-scheme: light;
 }
 
@@ -23,6 +24,7 @@
 	--faint-contrast: NOME !important;
 	--ghost-contrast-alt: NOME !important;
 	--mild-contrast: NOME !important;
+	--focus-color: NOME !important;
     color-scheme: dark;
 }
 
@@ -382,4 +384,35 @@ div[style*="display: flex"][style*="gap: 1em"] {
 
 div[style*="gap: 1em"] {
     gap: 0 !important;
+}
+
+input {
+  background: #2b2b2b;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #2F3135;
+  box-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  animation: neonBlink 1.5s ease-in-out infinite;
+}
+
+@keyframes neonBlink {
+  0% {
+    border-color: #fff;
+    box-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  }
+  50% {
+    border-color: #aaa;
+    box-shadow: 0 0 2px #aaa, 0 0 4px #aaa;
+  }
+  100% {
+    border-color: #fff;
+    box-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  }
 }
