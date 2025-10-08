@@ -452,6 +452,12 @@ input {
   transition: 0.1s;
 }
 
+#option-sort-by:focus {
+    border-color: #fff;
+    animation: neonGlow 1.1s ease-in-out infinite alternate;
+    outline: none;
+}
+
 input:focus {
   border-color: #fff;
   box-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 6px #fff;
