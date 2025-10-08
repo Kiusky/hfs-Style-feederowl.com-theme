@@ -87,6 +87,17 @@ img {
     max-width: 100%;
 }
 
+* {
+  user-select: none;
+  cursor: default;
+}
+
+button,
+a {
+  cursor: default !important;
+  user-select: none;
+}
+
 header {
     background-image: -webkit-linear-gradient(#484e55, #3a3f44 60%, #313539);
     background-image: -o-linear-gradient(#484e55, #3a3f44 60%, #313539);
