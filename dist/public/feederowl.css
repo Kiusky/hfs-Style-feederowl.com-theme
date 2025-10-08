@@ -331,6 +331,12 @@ ul.dir li a:last-of-type {
   animation: neonGlow 1.1s ease-in-out infinite alternate;
 }
 
+@media (max-height: 550px) {
+  .dialog-title {
+    display: none !important;
+  }
+}
+
 @media (max-width: 600px) {
     .toasts {
         top: 44% !important;
