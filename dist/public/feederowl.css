@@ -457,6 +457,15 @@ div[style*="gap: 1em"] {
     margin: 12px;
 }
 
+input[type="range"],
+input[role="slider"],
+.meu-range {
+  display: block !important;
+  margin: 0 auto !important;
+  width: 300px !important;
+  max-width: 90% !important;
+}
+
 input {
   background: #2b2b2b;
   border: 1px solid #555;
