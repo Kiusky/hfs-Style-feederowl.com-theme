@@ -271,6 +271,16 @@ ul.dir li a:last-of-type {
     margin-right: auto;
     margin-bottom: 0;
     overflow: hidden;
+    border-bottom: 2px;
+    padding-bottom: 10px; 
+}
+
+#option-invert-order,
+#option-folders-first,
+#option-sort-numerics,
+#option-english {
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .dialog-icon,
@@ -430,6 +440,10 @@ label[for="name"] {
     }
 }
 
+#root .file-show .bar, #root .file-show .bar>.controls {
+    justify-content: center !important;
+}
+
 div[style*="display: flex"][style*="gap: 1em"] {
     justify-content: center !important;
     align-items: center !important;
@@ -474,7 +488,7 @@ input:focus {
 }
 
 div[style*="display: flex"][style*="flex-direction: column"] {
-    margin: 12px;
+    margin: 0px;
 }
 
 #menu-bar button:not([disabled]):hover,
